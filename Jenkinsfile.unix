@@ -19,7 +19,7 @@
 */
 
 pipeline {
-    agent any 
+    agent { label 'slave_10.7' } 
 
     stages {
         stage('Build'){
